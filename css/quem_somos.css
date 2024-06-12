@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(133, 133, 133, 0.356);
+}
+
+.sobre{
+    width: 80vw;
+    padding-left: 10vw;
+    text-align: center;
+}
+.sobre p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.sobre img{
+    width: 40vw;
+    height: 400px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 10%;
+    justify-content: space-between;
+}
+.logo img{
+    width: 40%;
+    margin: 5%;
+}
+.user{
+    text-align: end;
+    margin: 2.5%;
+}
+.user img{
+    background-color: lightgray;
+    width: 17.5%;
+    border-radius: 50%;
+    justify-content: end;
+    border: 1px solid rgb(53, 53, 53);
+    padding: 2px;
+}
+.moto img{
+    width: 12.5%;
+    margin: 12.5%;
+    padding-left: 5.1vw;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+h4{
+    font-size: 25px;
+    font-family: sans-serif;
+}
